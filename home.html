@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ongoing Game</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body onload="randomise()">
+        
+        <table id="toMemorise">
+            <tr>
+                <td>
+                    <img id="pic1" src="YDCP project 2 images/fd1.jpg">
+                </td>
+                <td>
+                    <img id="pic2" src="YDCP project 2 images/fd2.jpg">
+                </td>
+                <td>
+                    <img id="pic3" src="YDCP project 2 images/fd3.jpg">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img id="pic4" src="YDCP project 2 images/fd4.jpg">
+                </td>
+                <td>
+                    <img id="pic5" src="YDCP project 2 images/fd5.jpg">
+                </td>
+                <td>
+                    <img id="pic6" src="YDCP project 2 images/fd6.jpg">
+                </td>
+            </tr>
+
+        </table>
+
+        <p id="timerText"></p>
+
+        <table id="mySelection">
+            <tr>
+                <td>
+                    <img id="selection1" src="YDCP project 2 images/blank.png">
+                </td>
+                <td>
+                    <img id="selection2" src="YDCP project 2 images/blank.png">
+                </td>
+                <td>
+                    <img id="selection3" src="YDCP project 2 images/blank.png">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img id="selection4" src="YDCP project 2 images/blank.png">
+                </td>
+                <td>
+                    <img id="selection5" src="YDCP project 2 images/blank.png">
+                </td>
+                <td>
+                    <img id="selection6" src="YDCP project 2 images/blank.png">
+                </td>
+            </tr>
+        </table>
+
+        <table id="options">
+            <tr>
+                <td>
+                    <img src="YDCP project 2 images/fd1.jpg" onclick="setOption1()">
+                </td>
+                <td>
+                    <img src="YDCP project 2 images/fd2.jpg" onclick="setOption2()">
+                </td>
+                <td>
+                    <img src="YDCP project 2 images/fd3.jpg" onclick="setOption3()">
+                </td>
+                <td>
+                    <img src="YDCP project 2 images/fd4.jpg" onclick="setOption4()">
+                </td>
+				<td>
+                    <img src="YDCP project 2 images/fd5.jpg" onclick="setOption5()">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="YDCP project 2 images/fd6.jpg" onclick="setOption6()">
+                </td>
+                <td>
+                    <img src="YDCP project 2 images/fd7.jpg" onclick="setOption7()">
+                </td>
+                <td>
+                    <img src="YDCP project 2 images/fd8.jpg" onclick="setOption8()">
+                </td>
+				<td>
+                    <img src="YDCP project 2 images/fd9.jpg" onclick="setOption9()">
+                </td>
+                <td>
+                    <img src="YDCP project 2 images/fd10.jpg" onclick="setOption10()">
+                </td>
+            </tr>
+        </table>
+
+        <button type="button" id="submitButton" onclick="checkAnswer()">Submit</button>
+
+    </body>
+</html>
